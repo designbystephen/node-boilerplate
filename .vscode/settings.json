@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    ".pnp.*": true,
+    ".yarn/": true
+  },
+  "editor.rulers": [
+    100,
+  ],
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true
+}
