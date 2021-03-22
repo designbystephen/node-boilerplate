@@ -1,5 +1,17 @@
-# node-boilerplate
+# node-boilerplate <!-- omit in toc -->
 > A boilerplate featuring common configurations, dependencies and functionality to provide a quick start for your next project.
+
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+- [Scripts](#scripts)
+- [Features](#features)
+  - [Compilation / Transpilation](#compilation--transpilation)
+  - [Envrionment Variables](#envrionment-variables)
+  - [Linting](#linting)
+  - [Unit Testing](#unit-testing)
+  - [Git Hooks](#git-hooks)
+- [Workspaces](#workspaces)
+  - [Visual Studio Code](#visual-studio-code)
 
 # Requirements
 - Node `v14.x`
@@ -14,6 +26,15 @@
 - Change to project root `cd my-project-directory`
 - Install dependencies `yarn`
 - Start writing code in `my-project-directory/src`
+
+# Scripts
+
+| Command | Description |
+| :-------------: | :----------: |
+| `yarn test` | Run unit tests |
+| `yarn lint` | Run linter |
+| `yarn build` | Build `/src` to `/build` directory |
+| `yarn start` | Run application at `/src/index` |
 
 # Features
 
@@ -52,10 +73,3 @@
 ## Visual Studio Code
 - typical workspace settings configured in `.vscode` within the project root
 
-# Scripts
-| Command | Description |
-| :-------------: | :----------: |
-| `yarn test` | Run unit tests |
-| `yarn lint` | Run linter |
-| `yarn build` | Build `/src` to `/build` directory |
-| `yarn start` | Run application at `/src/index` |
